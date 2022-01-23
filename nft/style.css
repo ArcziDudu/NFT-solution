@@ -1,0 +1,150 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+html{
+    max-width: 1440px;
+}
+.wrapper{
+    margin: 100px auto 100px;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+}
+.container{
+    width: 329px;
+    height: 544px;
+    box-sizing: content-box;
+    margin:0 auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.pols{
+    width: 280px;
+    height: 280px;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 4%;
+    margin-left: 23px;
+}
+main img{
+    width: 281px;
+    height: 281px;
+    border-radius: 3%;
+    position: absolute
+}
+main img:hover{
+    opacity: 0.5;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.eye{
+    position: absolute;
+    margin-top: 136px;
+    margin-left: 139px;
+    opacity: 2;
+}
+div .eye img{
+    width: 50px
+}
+main{
+    padding: 23px 23px 0px 23px; 
+}
+h1{
+    display: inline-block;
+    color: hsl(0, 0%, 100%);
+    padding: 4% 23px;
+    font-size: 22px;
+    font-weight: 600;
+}
+header h1:hover{
+    color: hsl(178, 100%, 50%);
+    transition: 1s;
+    cursor: pointer;
+}
+article{
+    color: hsl(215, 51%, 70%);
+    width: 281px;
+    padding: 0px 23px 23px;
+    font-weight: 300;
+}
+nav{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 23px 0px 23px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    color: hsl(178, 100%, 50%);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+ul li img{
+    padding: 0px 4px 0 0;
+    vertical-align: bottom;
+}
+.clock{
+    color: hsl(215, 51%, 70%);
+    margin: 0px 0px 0px 96px;
+    font-weight: 300;
+    text-transform: none;
+}
+#clockk{
+    vertical-align: -3px;
+}
+hr{
+    height: px;
+    width: 281px;
+    margin: 4% 23px 25px;
+    color: #2e4058
+}
+footer ul li img {
+   width: 32px;
+    border-radius: 50%;
+    border: 1px white solid;
+    margin: 0px 16px 0px 23px;
+    vertical-align: middle;
+    padding: 0px;
+}
+footer ul li{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    text-transform: none;
+}
+footer ul li u{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+.aside{
+    box-sizing: content-box;
+    margin: 0 auto;
+    display: flex;
+}
+.aside ul li{
+    display: inline-block;;
+    color:white;
+    font-size: 10px;
+    box-sizing: border-box;
+    text-transform: none;
+    
+}
+.aside ul li a{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: hsl(178, 100%, 50%);
+    font-weight: 300; 
+    
+}
+.aside ul li a:hover{
+    font-weight: 600;
+}
+footer ul li a{
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: hsl(178, 100%, 50%);
+}
